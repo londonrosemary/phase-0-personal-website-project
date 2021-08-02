@@ -1,3 +1,15 @@
 body {
-    background: blue;
-  } 
+    background:#0c9430;
+    } 
+h1 {
+    font: Georgia, serif;
+    color: #FFA1A1;
+    text-align: center;
+    font-size: 150px;
+    }
+h2 {
+    font: Georgia, serif;
+    font-size: 50px;
+    text-align: center;
+    color: #FFA1A1; 
+    }

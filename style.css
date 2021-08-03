@@ -83,6 +83,7 @@ textarea {
     resize: vertical;
 }
 button[type="submit"]:hover{
+    font-family: Georgia, serif;
     background-color: #6B4E71;
 }
 button[type="button"]:hover{

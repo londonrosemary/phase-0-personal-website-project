@@ -45,7 +45,7 @@ button {
 section{
     font-family: Grorgia, serif;
     padding:80px;
-    margin: 0 auto
+    margin: 0 auto;
     height: 50px;
     width: 300px;
     background-color: #8CA8CF;
@@ -57,4 +57,18 @@ section{
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
+    background-color: #FFA1A1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.formGroup{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+.formGroup input
+.formGroup textarea{
+    width: 100%;
+    padding: 10px;
+    border-color: #8CA8CF;
 }

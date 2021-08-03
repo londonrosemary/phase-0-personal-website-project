@@ -1,13 +1,12 @@
 body {
+    font-family: Georgia, serif;
     background:#0c9430;
     } 
 header {
     margin: 0px;
     padding: 0px;
-
 }
 h1 {
-    font: Georgia, serif;
     color: #FFA1A1;
     text-align: center;
     font-size: 150px;
@@ -15,7 +14,6 @@ h1 {
     margin: 0px;
     }
 h2 {
-    font: Georgia, serif;
     font-size: 70px;
     text-align: center;
     color: #FFA1A1; 
@@ -23,21 +21,40 @@ h2 {
     padding: 10px;
     }
 p {
-    font: Georgia, serif;
     font-size: 40px;
     color: #F9E7E7;
-    text-align: left;
-    padding-left: 40px;
-    padding-right: 40px;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 button {
-    width:60px;
-    height:50px;
-    margin: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 250px;
+    height:70px;
+    margin: 0 auto;
+    font-size: 20px;
     text-align: center;
-    background-color: salmon;
+    background-color: #8CA8CF;
     color: black;
     border: none;
     }
+section{
+    font-family: Grorgia, serif;
+    padding:80px;
+    margin: 0 auto
+    height: 50px;
+    width: 300px;
+    background-color: #8CA8CF;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}

@@ -14,7 +14,7 @@ h1 {
     margin: 0px;
     }
 h2 {
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     color: #FFA1A1; 
     margin: 10px;
@@ -33,14 +33,17 @@ button {
     display:flex;
     justify-content:center;
     align-items:center;
-    width: 250px;
+    width: 500px;
     height:70px;
     margin: 0 auto;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: Georgia, serif;
     text-align: center;
     background-color: #8CA8CF;
     color: black;
     border: none;
+    transition: .3s ease background-color;
     }
 section{
     font-family: Grorgia, serif;
@@ -54,7 +57,7 @@ section{
     justify-items: center;
 }
 .container{
-    width: 90%;
+    width: 500px;
     max-width: 500px;
     margin: 0 auto;
     background-color: #FFA1A1;
@@ -62,13 +65,27 @@ section{
     margin-bottom: 20px;
 }
 .formGroup{
+    width: 500px;
     margin-top: 20px;
     font-size: 30px;
     font-family: Georgia, serif;
 }
-.formGroup input
+.formGroup input{
+    width: 500px;
+}
 .formGroup textarea{
-    width: 100%;
-    padding: 10px;
+    width: 500px;
+    padding: 3px;
     border-color: #8CA8CF;
+}
+textarea {
+    width: 500px;
+    resize: vertical;
+}
+button[type="submit"]:hover{
+    background-color: #6B4E71;
+}
+button[type="button"]:hover{
+    font-family: Georgia, serif;
+    background-color: #6B4E71;
 }
